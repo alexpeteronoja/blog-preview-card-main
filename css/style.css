@@ -1,0 +1,43 @@
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-family: 'Figtree', sans-serif;
+    font-size: 100%;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    padding: 20px 9px 20px 20px;
+    border-radius: 2%;
+    box-shadow: 7px 7px 1rem hsl(0, 0%, 7%);
+}
+
+.learn {
+    background-color: hsl(47, 88%, 63%);
+    display: inline-block;
+    padding: 7px 12px;
+    border-radius: 9%;
+}
+
+.description {
+    color: hsl(0, 0%, 50%);
+}
+
+.coder-name {
+    padding-top: 3%;
+    padding-left: 17%;
+}
+
+.coder-image {
+    width: 40px;
+    float: left
+}
+
+.attribution {
+    clear: left;
+    padding-top: 10px;
+}
